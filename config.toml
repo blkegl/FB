@@ -3,19 +3,18 @@ strict-sigcheck = false
 [Messenger]
 enabled = true
 brand = "hush"
-#apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-technologies-llc/messenger/"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/facebook-messenger-580-0-0-49-91-release/facebook-messenger-580-0-0-49-91-5-android-apk-download/"
-#arch = "arm64-v8a"
+github-dlurl = "https://github.com/blkegl/Apk/releases/tag/messenger"
+arch = "arm64-v8a"
 #changelog-keywords = ["Messenger"]
 
 [Messenger.patches]
-"github:SysAdminDoc/HushMessenger" = { exclude = ["Install beside Meta apps"] }
+"github:SysAdminDoc/HushMessenger" = []
 
 [Facebook]
-enabled = false
+enabled = true
 brand = "hush"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+github-dlurl = "https://github.com/blkegl/Apk/releases/tag/facebook"
 arch = "arm64-v8a"
 
 [Facebook.patches]
-"github:SysAdminDoc/HushMessenger" = { exclude = ["Install beside Meta's apps"] }
+"github:SysAdminDoc/HushMessenger" = []
