@@ -17,4 +17,4 @@ github-dlurl = "https://github.com/blkegl/Apk/releases/tag/facebook"
 arch = "arm64-v8a"
 
 [Facebook.patches]
-"github:SysAdminDoc/Hushfacebook" = { include = ["Download any video", "AMOLED black theme", "Material You theme", "Hide Stories tray", "Hide Reels in the feed", "Hide the Reels tab", "Block background-return feed refresh", "Stop Story auto-advance", "View stories anonymously", "Clean up Reels", "Don't send reel watch history", "Use the system font", "Use the phone's emoji", "Open on a chosen tab", "Tap to play", "Turn off double tap to like", "Default comment order", "Tag suggestions only after @"] }
+"github:SysAdminDoc/Hushfacebook" = { include = ["Download any video", "AMOLED black theme", "Material You theme", "Hide Stories tray", "Hide Reels in the feed", "Default playback quality", "Hold a reel for 2x", "Hide the Reels tab", "Block background-return feed refresh", "Stop Story auto-advance", "View stories anonymously", "Clean up Reels", "Don't send reel watch history", "Use the system font", "Use the phone's emoji", "Open on a chosen tab", "Tap to play", "Turn off double tap to like", "Default comment order", "Tag suggestions only after @"] }
